@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tg">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="valentine-confession.css">
+        <title>Сабрина</title>
+    </head>
+    <body>
+        <p class="instruction">Click the heart!</p>
+        <div class="container">
+            <label>
+            <div class="heart">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Love_Heart_SVG.svg"></img>
+            </div>
+            <input id="messageState" type="checkbox" style="display:none"/>
+            </label>
+            <div class="message">
+                <h1 class="message-title">Сабрина</h1>
+                <p> 
+                    <span>
+                        &emsp; Ман чандин бор мехостам ҳисси худро ба ту аз пеши гуям. Аммо ту барои ман ҳатто 5 дақиқа фурсат надоди. Аз баски рақамҳои туро надоштам, тасмим гирифтам, ки ҳиссиёти худро чунин баён кунам.
+                    </span>
+                    <br> <br>
+                    <span>
+                        &emsp; Чи тавре, ки гуфта будам, ман туро аз рузҳои роҳпаймои аҳамият медодам. Аз дур шишта туро назар мекардам, мешуд замоне аз пешат мегузаштам. Ба ман оромӣ, муйҳои дароз, чашмони кабуд ва муҳимтар аз ҳамма лабханди шодонат дилписанд шуд. Аз миёни ин қадар духтар, дили ман маҳз дар пеши роҳи ту истод.
+                    </span>
+                    <br> <br>
+                    <span>
+                        &emsp; Ман медонам, ки ту маро намешиноси. Барои ҳамин ман “Не”-и туро мефаҳмам. Ман намехоҳам туро маҷбур кунам.
+                    </span>
+                    <br> <br>
+                    <span>
+                        &emsp; Вале ман туро дар ҳақиқат мехоҳам фаҳмам. Барои ман ҷолиб аст, ки ту дар ҳаёти воқеи чи гунаи, чи орзуҳо дори, бо чи корҳо машғули.
+                    </span>
+                    <br> <br>
+                    <span>
+                        &emsp; Ман намехоҳам бори дигар туро  маҷбур созам, агар ба ту ҷолиб шавад маро фаҳмидан – ман ҳозирам.
+                    </span>
+                    <br> <br>
+                    <span class="question-prompt">
+                        <span>Бори охирон бор ба як саволи ман ҷавоб деҳ.</span>
+                        <button class="question-button" id="questionButton" type="button">Савол</button>
+                    </span>
+                </p>
+                <br>
+                <div class="sincere">
+                    <p>Нуъмон</p>
+                 </div>
+            </div>
+        </div>
+
+        <dialog class="question-dialog" id="questionDialog" aria-label="Савол">
+            <button class="question-dialog-close" id="closeQuestionDialog" type="button" aria-label="Бастан">×</button>
+            <iframe
+                id="questionProject"
+                title="Лоиҳаи Савол"
+                allow="autoplay"
+                loading="lazy"></iframe>
+        </dialog>
+
+        <script src="jquery.js"></script>
+        <script src="jquery2.1.js"></script>
+        <script defer src="valentine-confession.js"></script>
+    </body>
+</html>
